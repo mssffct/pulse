@@ -1,0 +1,109 @@
+@media ( max-width: 1200px) {
+
+}
+
+@media ( max-width: 991px) {
+    .promo {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 90px;
+        }
+    }
+}
+
+@media ( max-width: 767px) {
+    .header {
+        margin: 0 10px 0 10px;
+        &__phone {
+            font-size: 16px;
+        }
+        &__official {
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .advantages {
+        text-align: center;
+        &__blocks {
+            margin: 0;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__header {
+            margin-top: 10px;
+        }
+        &__text {
+            margin-top: 10px;
+        }
+        &__item {
+            text-align: center;
+            width: 400px;  
+            margin: 20px 0 0 0;
+        }
+        &__item:nth-child(3) {
+            margin: 20px 0 0 0;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header{
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 36px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 447px) {
+    .header {
+        flex-direction: column;
+        &__contacts {
+            margin-top: 20px;
+        }
+        &__phone {
+            display: none;
+        }
+    }
+    .button {
+        width: 300px;
+    }
+    .promo {
+        padding-bottom: 40px;
+        text-align: center;
+        &__wrapper {
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__icons {
+            max-width: 310px;
+
+        }
+        &__icon {
+            width: 75px;
+            font-size: 12px;
+        }
+    }
+    .advantages {
+        padding: 20px 0 20px 0;
+    }
+    .header {
+        &_black {
+            font-size: 23px;
+        }
+    }
+}

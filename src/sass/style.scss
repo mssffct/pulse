@@ -1,0 +1,16 @@
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'base/buttons';
+@import 'blocks/advantages';
+@import 'base/titles';
+@import 'base/media';
+
+* {
+    box-sizing: border-box;
+    font-family: 'MuseoSansCyrl', sans-serif;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}

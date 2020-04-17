@@ -1,0 +1,9 @@
+.header {
+    &_black {
+        font-size: 30px;
+        font-weight: 700;
+        color: $black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
