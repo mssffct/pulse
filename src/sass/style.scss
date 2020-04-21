@@ -4,6 +4,8 @@
 @import 'base/buttons';
 @import 'blocks/advantages';
 @import 'base/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
 @import 'base/media';
 
 * {
@@ -13,4 +15,7 @@
 .container {
     max-width: 950px;
     margin: 0 auto;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
 }
