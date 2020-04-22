@@ -12,11 +12,22 @@
             margin-top: 90px;
         }
     }
+    .advantages {
+        &__item {
+            margin-right: 30px;
+        }
+    }
     .consultation {
         text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .feed-form {
-        margin: 0 auto;
+        margin: 20px auto;
+        
+    }
+    .header_left {
+        font-size: 30px;
     }
 }
 
