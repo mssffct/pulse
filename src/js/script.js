@@ -14,7 +14,23 @@ $(document).ready(function(){
                     dots: true,
                     arrows: false
                 }
-            }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false,
+                    arrows: false
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    dots: false,
+                    arrows: false
+                }
+            },
         ]
     });
     // скрипт для табов

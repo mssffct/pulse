@@ -29,6 +29,18 @@
     .header_left {
         font-size: 30px;
     }
+    .catalog {
+        &__tabs {
+            margin-top: 40px;
+            flex-direction: column;
+        }
+        &__tab {
+            margin-top: 10px;
+        }
+        &__content {
+            justify-content: space-around;
+        }
+    }
 }
 
 @media ( max-width: 767px) {
@@ -75,6 +87,26 @@
     .header_left {
         font-size: 30px;
     }
+    .catalog {
+        &__tabs {
+            margin-top: 40px;
+            flex-direction: column;
+        }
+        &__tab {
+            margin-top: 10px;
+        }
+        &__content {
+            justify-content: space-around;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 550px;
+            img {
+                max-width: 550px;
+            }
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -89,6 +121,19 @@
         }
         &__subheader {
             font-size: 20px;
+        }
+    }
+    .reviews {
+        &_item {
+            margin-top: 30px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 430px;
+            img {
+                max-width: 430px;
+            }
         }
     }
 }
@@ -140,6 +185,43 @@
         padding: 30px 0 30px 0;
         &__descr {
             font-size: 15px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 300px;
+            img {
+                max-width: 300px;
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 30px;
+    }
+    .reviews {
+        &__items {
+            hr {
+                display: block;
+            }
+        }
+        &__item {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &:first-child {
+                margin-top: 20px;
+                text-align: center;
+            }
+            &_img {
+                margin-right: 0;
+                max-width: 100px;
+                height: 100px;
+            }
+            &_text {
+                margin-top: 10px;
+                text-align: center;
+            }
         }
     }
 }
