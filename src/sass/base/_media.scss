@@ -107,6 +107,19 @@
             }
         }
     }
+    .footer {
+        height: 500px;
+        &__info {
+            height: 250px;
+            padding-top: 10px;
+        }
+        &__addr {
+            margin-bottom: 26px;
+        }
+        &__phone {
+            margin-bottom: 28px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -222,6 +235,22 @@
                 margin-top: 10px;
                 text-align: center;
             }
+        }
+    }
+    .footer {
+        height: 400px;
+        &__info {
+            width: 320px;
+            height: 250px;
+            padding: 10px 10px 10px 10px;
+        }
+        &__addr {
+            margin-bottom: 26px;
+            font-size: 18px;
+        }
+        &__phone {
+            margin-bottom: 28px;
+            font-size: 18px;
         }
     }
 }
