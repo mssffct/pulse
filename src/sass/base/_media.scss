@@ -149,6 +149,11 @@
             }
         }
     }
+    .modal {
+        &__close {
+            right: -25px;
+        }
+    }
 }
 
 @media (max-width: 447px) {
@@ -211,6 +216,13 @@
     .catalog {
         padding-bottom: 30px;
     }
+    .button {
+        &_mini {
+            width: 100px;
+            height: 40px;
+            font-size: 14px;
+        }
+    }
     .reviews {
         &__items {
             hr {
@@ -251,6 +263,20 @@
         &__phone {
             margin-bottom: 28px;
             font-size: 18px;
+        }
+    }
+    .modal {
+        width: 280px;
+        padding: 10px;
+        & .feed-form_mt25 {
+            width: 260px;
+            & button {
+                width: 260px;
+            }
+        }
+        &__close {
+            top: 10px;
+            right: 10px;
         }
     }
 }
