@@ -102,4 +102,22 @@ $(document).ready(function(){
     validateForms('#consultation-form');
     validateForms('#consultation form');
     validateForms('#order form');
+    // маска ввода номера (шаблон)
+    $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+    // отправка почты с сайта, файлы мейлера на пхп, там написать свой логин и пароль почты а так же в строке setForm
+    $('form').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: "mailer/smart.php",
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find("input").val("");
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #thanks').fadeIn(slow);
+            $('form').trigger('reset');
+        });
+        return false;
+    });
 });
