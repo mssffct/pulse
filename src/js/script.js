@@ -115,6 +115,7 @@ $(document).ready(function(){
         return false;
     });
 
-    // new WOW().init();
+    // подключение библиотеки wow.js
+    new WOW().init();
 });
 
