@@ -135,7 +135,11 @@
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+            ul {
+                padding-left: 0px;
+            }
             li {
+                list-style-type: none;
                 position: relative;
                 color: $grey;
                 font-size: 14px;
