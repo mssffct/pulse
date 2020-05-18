@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 46" width="42" height="46">
+	<defs>
+		<image width="42" height="46" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAuCAMAAABpjHt/AAAAAXNSR0IB2cksfwAAAj1QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////b+3sUQAAAL90Uk5TABrT8OQuATv/UwI29kwDIfURRXOvwH9ZGVu38evEZiMTrIQPiPLGY0AwOkpggbmYC7h5Wu3pdiglaNv8cQmfep3+dQwE7h7HfCTWsBWiMSBVaW7jQ6CS2lJwVwhBTmy9Bm2uUIyTHPriDtSmxdWoSZo0uw0Fa9eVcoZPP6qpHwf72ehk9xj0mbIqoTMbJp75wwor4d2cyYqjhzg9XmGD/YUsuqerVM5IMkv431jleHexL10drc97N+dnvo+/ll9PvnJVAAAC2ElEQVR4nIWUB1sTQRCGRyPh4yAJTZQuAgZpJkiPKIEYLIggahBUggUEQSwUKyACCqggNqyIimLB3ttvcy9F7vYSM8+Ty8y3787M3u4tkcIWLFQt8lPKvKnZzx9AgE9SEB+BQYCGtP9P6RzWBQP+PoqLZEhoWDhrYHHEEp2kmKBoc2lkFMMQHaMS/2Lj4p0jyxKWc2RiUjKwIkmf4rcyNS09I5PRq0TYYASyZOzqbOTk5gmuAszyCwphWqOmorUmYN18SkOx2VxS5AhKS8nihLVx62G0EpWxAhu0LnLjJmx2daYtis+1unOUb0F2hSZYbD3eSW4tRMZ8K5Womg+2IdhcvX2HaaezZLkNYZKua7BLstpace/qdruiKERIX8Ue7JWuV496u9tvwD4Jqab9cpQO4KDLa2w61CwlFailBYEkWJh3GJWyEQVKqWglNUPz0UY+UDqCdvGoHUWtT/QYjrPniWxVhxgJUrTTtbdus3eB7UoKup3rkaInOZROoYCoBGlcNTqNXB49g7NE59DDozUM5ay377xAbf3NclVN7bjAo9Q2MEhDZYK8mKBOwkWBRy9hmGCUfzmCOoKduG4eHcEoQy0WmXi5n6GmKxx6laFj49fk1RJtIprHoQmYoOs3QrhlVTH0Jt/ArT4rGc2DvHwbk2peS66uozu4y8v3cJ+XdKgXdzGL15s15bz0AA/ZFWnqkvTJI27LRCp7RrEjriC5Obopm6hoEK5Iwmd/xI6laC2Y9lbXZT1DMQaHE4rH3pt0lHgCvct/qjyfMnIGz9xBSA6eeyUFmg0aGP4XvsDLWS+knfJeIVIy8fVUtMfbn935o3N4I9MCptDgMaseeMtJoSq8e0/UIV/e9CTwQTH94ydgxN8ulfyKgXqP73yGnenPX75aS7UkGBpnO2OBb98VH5nTLOlG8Sa3lf1o7WpiznhDr2fQcRVN1P78NTcGU07s7z8V3Phfl6h9M9kPQ0MAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="первый экран">
+		<g id="иконки">
+			<g id="1">
+				<use id="019_timer_time_stopwatch_2-64" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
